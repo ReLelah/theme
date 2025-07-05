@@ -1,1 +1,60 @@
+/**
+ * @name Desing By judylores / Bmw Gif
+ * @version 1.0
+ * @description Bmw bg
+ * @author Judylores
+ * @invite ksYUPbqyFd
+ * @BDEditor Judylores
+*/
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Open+Sans:wght@400&display=swap');
+@import url('https://xcruxiex.github.io/themes/themes-cores/neutron8.css');
+@import url('https://nyri4.github.io/Discolored/main.css');
+
+:root {
+  --backgroundImage: url('https://imgur.com/a/oJyybQC');
+  --backgroundColor: #000000;
+  --backgroundSize: cover;
+  --backgroundPosition: center;
+  --backgroundRepeat: no-repeat;
+  --backgroundBlur: 5px;
+  --backgroundOpacity: 0.3;
+  --homeImage: url('https://imgur.com/a/oJyybQC');
+  --homeImageSize: contain;
+  --themeColor1: #8500F6;
+  --themeColor2: #A800FF;
+  --customFont: Poppins;
+  --backgroundCode: rgb(0,0,0,0.5);
+  --backgroundName: rgba(0 0 0 /.5);
+}
+
+/* Apply Poppins Bold to headers and server names */
+[class*="title-"], /* Channel headers, DM headers */
+[class*="headerText-"], /* Server and channel headers */
+[class*="name-"], /* Server names in sidebar */
+[class*="guildName-"], /* Server names in popouts */
+[class*="channelName-"], /* Channel names in UI */
+[class*="topSection-"] /* User popout headers */ {
+  font-family: 'Poppins', sans-serif !important;
+  font-weight: 700 !important;
+}
+
+/* Apply Open Sans to message content with high specificity */
+div[class*="message-"] div[class*="contents-"] span[class*="markup-"],
+div[class*="messageContent-"],
+div[class*="message-"] [class*="markup-"],
+div[class*="message-"] [class*="contents-"] {
+  font-family: 'Open Sans', sans-serif !important;
+  font-weight: 400 !important;
+}
+
+/* Apply Poppins Regular to other elements */
+body:not([class*="message-"]),
+[class*="content-"]:not([class*="messageContent-"]),
+[class*="text-"]:not([class*="messageContent-"]),
+[class*="description-"],
+[class*="sidebar-"],
+[class*="container-"]:not([class*="message-"]) {
+  font-family: 'Poppins', sans-serif !important;
+  font-weight: 400 !important;
+}
