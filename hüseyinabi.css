@@ -12,14 +12,14 @@
 @import url('https://nyri4.github.io/Discolored/main.css');
 
 :root {
-  --backgroundImage: url('https://i.imgur.com/EdHfmje.jpeg');
+  --backgroundImage: url('https://i.imgur.com/XuMJ4nc.gif');
   --backgroundColor: #000000;
   --backgroundSize: cover;
   --backgroundPosition: center;
   --backgroundRepeat: no-repeat;
   --backgroundBlur: 5px;
   --backgroundOpacity: 0.3;
-  --homeImage: url('https://i.imgur.com/EdHfmje.jpeg');
+  --homeImage: url('https://i.imgur.com/XuMJ4nc.gif');
   --homeImageSize: contain;
   --themeColor1: #8500F6;
   --themeColor2: #A800FF;
