@@ -17,8 +17,8 @@
   --backgroundSize: cover;
   --backgroundPosition: center;
   --backgroundRepeat: no-repeat;
-  --backgroundBlur: 3px;
-  --backgroundOpacity: 0.499;
+  --backgroundBlur: 2px;
+  --backgroundOpacity: 0.6;
   --homeImage: url('https://i.imgur.com/8FToWFd.jpeg');
   --homeImageSize: contain;
   --themeColor1: #8500F6;
